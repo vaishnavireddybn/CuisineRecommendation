@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cuisine Recommendation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Cuisine Recommendation</h1>
+      <p>Discover your next favorite meal from around the world!</p>
+    </div>
+  </header>
+
+  <section class="filter-options">
+    <div class="container">
+      <button class="filter-btn" onclick="filterCuisines('all')">All</button>
+      <button class="filter-btn" onclick="filterCuisines('italian')">Italian</button>
+      <button class="filter-btn" onclick="filterCuisines('mexican')">Mexican</button>
+      <button class="filter-btn" onclick="filterCuisines('japanese')">Japanese</button>
+      <button class="filter-btn" onclick="filterCuisines('indian')">Indian</button>
+    </div>
+  </section>
+
+  <section class="cuisine-list">
+    <div class="container">
+      <h2>Most loved dishes by NammaBengaluru</h2>
+      <div class="cuisines">
+        <div class="cuisine-card italian">
+          <img src="italian.jpg" alt="Masala Dose">
+          <h3>Masala Dose</h3>
+          <p>Because every time I see you, my heart gets a little crispy and my world is suddenly full of spice..</p>
+        </div>
+        <div class="cuisine-card mexican">
+          <img src="mexican.jpg" alt="Biryani">
+          <h3>Biriyani</h3>
+          <p></p>
+        </div>
+        <div class="cuisine-card japanese">
+          <img src="sushi.jpg" alt="Japanese Cuisine">
+          <h3>Japanese</h3>
+          <p>Delicate and fresh, sushi and ramen are the heart of Japanese food culture.</p>
+        </div>
+        <div class="cuisine-card indian">
+          <img src="indian.jpg" alt="Indian Cuisine">
+          <h3>Indian</h3>
+          <p>Rich spices and complex flavors come together in traditional Indian dishes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2024 Cuisine Recommendation</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
